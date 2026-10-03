@@ -1,0 +1,12 @@
+planner:
+  tools: [read, search]
+  autonomy: 1
+implementer:
+  tools: [read, write, exec]
+  autonomy: 1
+reviewer:
+  tools: [read, comment]
+  autonomy: 0
+security:
+  tools: [read, scan]
+  autonomy: 0
